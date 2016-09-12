@@ -111,10 +111,9 @@ Build-Depends: cmake (>= 2.8.12~),
                shared-mime-info,
                xsltproc,
                zlib1g-dev
-Build-Depends-Indep: dblatex
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdepim.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akregator.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim.git
 
 Package: akregator

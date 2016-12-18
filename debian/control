@@ -86,8 +86,8 @@ Package: akregator
 Section: web
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepim-doc
-Replaces: kdepim-doc
+Breaks: kdepim-doc (<< 4:16.12.0)
+Replaces: kdepim-doc (<< 4:16.12.0)
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator
  Akregator is a news feed reader. It enables you to follow

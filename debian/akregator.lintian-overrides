@@ -1,2 +1,2 @@
 akregator: package-name-doesnt-match-sonames libakregatorinterfaces5 libakregatorprivate5
-akregator: non-dev-pkg-with-shlib-symlink usr/lib/*/libakregatorinterfaces.so.5.5.2 usr/lib/*/libakregatorinterfaces.so
+akregator: non-dev-pkg-with-shlib-symlink usr/lib/*/libakregatorinterfaces.so.5.5.* usr/lib/*/libakregatorinterfaces.so

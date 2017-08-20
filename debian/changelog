@@ -1,3 +1,29 @@
+akregator (4:17.08.0-0neoo~) UNRELEASED; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New revision
+  * Add libkf5akonadisearch-plugins dependency to kmail.
+    Thanks to Maria for reporting (Closes: 830563)
+  * Add new patch: akregator_crash_on_exit.patch.
+    Thanks to Ismael Bejarano for the backtrace and Sandro Knauß for the patch
+    (Closes: 836011)
+  * Update install files
+  * Update changelog for 4:16.04.3-2~1.gbp1d9499 release
+  * Editorial changes... Drop some of the things inherited from kdepim
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update changelog for 4:16.08.0-1~1.gbp2c29f3 release
+  * Update build-deps and deps with the info from cmake
+  * Update changelog for 4:16.08.0-1~2.gbpc82cee release
+  * Refresh patches
+  * Update changelog for 4:16.08.1-1~1.gbp32c837 release
+  * Refresh patches
+  * Update changelog for 4:16.08.1-1~2.gbpb36d9f release
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 20 Aug 2017 17:04:39 +0200
+
 akregator (4:17.08.0-0neon) xenial; urgency=medium
 
   * New release

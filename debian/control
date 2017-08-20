@@ -11,74 +11,9 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               kross-dev (>= 5.19.0~),
-               libassuan-dev,
-               libgpgme-dev | libgpgme11-dev,
-               libgrantlee5-dev (>= 5.0.0~),
-               libkf5akonadi-dev (>= 4:15.12~),
-               libkf5akonadimime-dev (>= 4:15.12~),
-               libkf5akonadiserver-dev (>= 15.12~),
-               libkf5archive-dev (>= 5.19.0~),
-               libkf5auth-dev (>= 5.19.0~),
-               libkf5codecs-dev (>= 5.19.0~),
-               libkf5completion-dev (>= 5.16.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5contacteditor-dev (>= 17.04.0~),
-               libkf5coreaddons-dev (>= 5.16.0~),
-               libkf5crash-dev (>= 5.19.0~),
-               libkf5dbusaddons-dev (>= 5.19.0~),
-               libkf5dnssd-dev (>= 5.19.0~),
-               libkf5doctools-dev,
-               libkf5globalaccel-dev (>= 5.19.0~),
-               libkf5grantleetheme-dev (>= 5.2.0~),
-               libkf5i18n-dev (>= 5.16.0~),
-               libkf5iconthemes-dev (>= 5.16.0~),
-               libkf5itemviews-dev (>= 5.16.0~),
-               libkf5kcmutils-dev (>= 5.19.0~),
-               libkf5kdelibs4support-dev (>= 5.19.0~),
-               libkf5khtml-dev (>= 5.16.0~),
-               libkf5kontactinterface-dev (>= 15.12~),
-               libkf5libkdepim-dev (>= 5.2.0~),
-               libkf5libkleo-dev (>= 5.2.0~),
-               libkf5messagecomposer-dev,
-               libkf5messagecore-dev (>= 5.2.0~),
-               libkf5messagelist-dev,
-               libkf5messageviewer-dev (>= 5.2.0~),
-               libkf5mimetreeparser-dev,
-               libkf5newstuff-dev (>= 5.19.0~),
-               libkf5notifyconfig-dev (>= 5.19.0~),
-               libkf5pimcommon-dev (>= 5.2.0~),
-               libkf5pimtextedit-dev (>= 15.12~),
-               libkf5service-dev (>= 5.19.0~),
-               libkf5sonnet-dev (>= 5.19.0~),
-               libkf5syndication-dev (>= 15.12~),
-               libkf5templateparser-dev,
-               libkf5texteditor-dev (>= 5.19.0~),
-               libkf5textwidgets-dev (>= 5.16.0~),
-               libkf5wallet-dev (>= 5.19.0~),
-               libkf5webengineviewer-dev,
-               libkf5webkit-dev (>= 5.19.0~),
-               libkf5widgetsaddons-dev (>= 5.16.0~),
-               libkf5windowsystem-dev (>= 5.16.0~),
-               libkf5xmlgui-dev (>= 5.16.0~),
-               libkf5xmlrpcclient-dev (>= 5.2.0~),
-               libphonon4qt5-dev,
-               libphonon4qt5experimental-dev,
-               libqt5opengl5-dev (>= 5.5.0~),
-               libqt5webchannel5-dev,
-               libqt5webkit5-dev (>= 5.5.0~),
-               libqt5x11extras5-dev (>= 5.4.0~),
-               libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.5.0~),
-               qtdeclarative5-dev (>= 5.4.0~),
-               qttools5-dev (>= 5.5.0~),
-               qtwebengine5-dev,
-               shared-mime-info,
-               xsltproc,
-               zlib1g-dev
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akregator.git
@@ -87,7 +22,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim.git
 Package: akregator
 Section: web
 Architecture: any
-Depends: kinit, kio, libqt5webengine5, ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Replaces: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Homepage: http://akregator.kde.org/
@@ -98,4 +33,3 @@ Description: RSS/Atom feed aggregator
  both easy to use and to be powerful enough to read hundreds of news sources
  conveniently. It comes with Konqueror integration for adding news feeds and
  with an internal browser for easy news reading.
- .

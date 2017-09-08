@@ -24,6 +24,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5codecs-dev (>= 5.19.0~),
                libkf5completion-dev (>= 5.16.0~),
                libkf5config-dev (>= 5.19.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5coreaddons-dev (>= 5.16.0~),
                libkf5crash-dev (>= 5.19.0~),
                libkf5dbusaddons-dev (>= 5.19.0~),
@@ -86,7 +87,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim.git
 Package: akregator
 Section: web
 Architecture: any
-Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, kio, libqt5webengine5, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Replaces: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Homepage: http://akregator.kde.org/

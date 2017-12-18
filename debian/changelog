@@ -9,6 +9,7 @@ akregator (4:17.08.3-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Remove not needed Build-Deps.
+  * Fix Vcs-Git link to point to correct repo.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Dec 2017 17:14:49 +0100
 

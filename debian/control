@@ -43,7 +43,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akregator.git
 Package: akregator
 Section: web
 Architecture: any
-Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Replaces: kdepim-doc (<< 4:16.12.0), ${kde-l10n:all}
 Homepage: http://akregator.kde.org/
